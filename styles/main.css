@@ -1,0 +1,32 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 80px;
+}
+
+.left{
+    flex-wrap: wrap;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.left h1{
+    width: 50% ;
+    text-align: left;
+}
+
+.left p{
+    width: 60%;
+}
+
+.left .numbers{
+    display: flex;
+    flex-wrap: wrap;
+     gap: 10px;
+     width: 30%;
+}
+
+.right{
+    background-color: blue;
+}
