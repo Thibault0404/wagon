@@ -44,7 +44,26 @@
 }
 
 .middle {
-  margin-top: 100px;
+  margin-top: 150px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  grid-row-gap: 100px;
+}
+
+.middle > div {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.middle > div > p {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.middle > div > h2 {
+  text-align: center;
 }
 
 .titre {

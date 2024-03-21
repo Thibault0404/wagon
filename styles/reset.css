@@ -1,40 +1,56 @@
-*, *::before, *::after {
-    box-sizing: border-box;
-  }
-
-  * {
-    margin: 0;
-    list-style-type: none;
-  }
-
-a {
-    color: black;
-    text-decoration: none;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-  body {
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-  }
+* {
+  margin: 0;
+  list-style-type: none;
+}
 
-  img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
-  }
- 
-  input, button, textarea, select {
-    font: inherit;
-  }
+a {
+  color: black;
+  text-decoration: none;
+}
 
-  p, h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word;
-  }
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
 
-  #root, #__next {
-    isolation: isolate;
-  }
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
 
-  button{
-    background: none;
-    border: non;
-  }
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+button {
+  background: none;
+  border: non;
+}
